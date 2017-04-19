@@ -9,6 +9,11 @@
         - 설치가 끝나면 Chrome으로 이 문서를 열어주세요.
 -->
 
+## 유용한 문서
+- [`if`에 쓰이는 식 목록 (-e, -r 등)](http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_07_01.html)
+- [Parameter substitution](http://www.tldp.org/LDP/abs/html/parameter-substitution.html)
+- [make와 Makefile]( http://bowbowbow.tistory.com/12 )
+
 ## [2012 임베디드 시스템 프로그래밍 기말시험]( https://github.com/kdzlvaids/esp2017/blob/master/md/2012%20%EC%9E%84%EB%B2%A0%EB%94%94%EB%93%9C%20%EC%8B%9C%EC%8A%A4%ED%85%9C%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B8%B0%EB%A7%90%EC%8B%9C%ED%97%98.md#2012-임베디드-시스템-프로그래밍-기말시험 )
 - [문제 1: C언어 - 문자열 복사 함수 작성]( https://github.com/kdzlvaids/esp2017/blob/master/md/2012%20%EC%9E%84%EB%B2%A0%EB%94%94%EB%93%9C%20%EC%8B%9C%EC%8A%A4%ED%85%9C%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B8%B0%EB%A7%90%EC%8B%9C%ED%97%98.md#문제-1 )
 - [문제 2: C언어 - 함수의 포인터 코드 해석]( https://github.com/kdzlvaids/esp2017/blob/master/md/2012%20%EC%9E%84%EB%B2%A0%EB%94%94%EB%93%9C%20%EC%8B%9C%EC%8A%A4%ED%85%9C%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B8%B0%EB%A7%90%EC%8B%9C%ED%97%98.md#문제-2 )

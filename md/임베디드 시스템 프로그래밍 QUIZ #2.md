@@ -9,10 +9,6 @@
         - 설치가 끝나면 Chrome으로 이 문서를 열어주세요.
 -->
 
-## 유용한 문서
-- [`if`에 쓰이는 식 목록 (-e, -r 등)](http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_07_01.html)
-- [Parameter substitution](http://www.tldp.org/LDP/abs/html/parameter-substitution.html)
-
 ## 문제 1
 다음의 bash 스크립트가 하는 일을 구체적으로 설명하라.
 
