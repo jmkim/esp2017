@@ -1,7 +1,5 @@
 <!-- Author: Jongmin Kim <jmkim@pukyong.ac.kr> -->
 # 임베디드 시스템 프로그래밍 QUIZ #2
-- 마지막 수정: April 18, 2017 04:34:35
-
 <!-- Notice:
     이 문서는 Markdown 문서입니다.
 

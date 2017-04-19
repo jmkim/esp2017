@@ -1,7 +1,5 @@
 <!-- Author: Jongmin Kim <jmkim@pukyong.ac.kr> -->
 # ESP2017
-- 마지막 수정: April 20, 2017 06:23:52
-
 <!-- Notice:
     이 문서는 Markdown 문서입니다.
 
