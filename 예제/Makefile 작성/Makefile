@@ -1,6 +1,5 @@
 CC = gcc
 LD = gcc
-ODIR = .obj
 CCFLAGS =
 LDFLAGS =
 
