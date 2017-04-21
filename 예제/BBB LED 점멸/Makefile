@@ -12,10 +12,10 @@ bbb_led: bbb_led.o
 	$(LD) -o $@ $^ $(LDFLAGS)
 
 gpio_led.o: gpio_led.cpp
-	$(CC) -MMD -c -o $@ $< $(CCFLAGS)
+	$(CC) -c -o $@ $< $(CCFLAGS)
 
 bbb_led.o: bbb_led.cpp
-	$(CC) -MMD -c -o $@ $< $(CCFLAGS)
+	$(CC) -c -o $@ $< $(CCFLAGS)
 
 clean: 
-	rm -f *.o *.d gpio_led bbb_led
+	rm -f *.o gpio_led bbb_led
