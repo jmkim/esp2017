@@ -1,5 +1,5 @@
-CC = armv8l-linux-gnueabihf-g++
-LD = armv8l-linux-gnueabihf-g++
+CC = arm-linux-gnueabihf-g++
+LD = arm-linux-gnueabihf-g++
 CCFLAGS = --std=c++14
 LDFLAGS =
 
