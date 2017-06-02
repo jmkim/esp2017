@@ -1,4 +1,0 @@
-[submodule "과제/scull.c-using-linux-kernel-linked-list-api"]
-	path = 과제/scull.c-using-linux-kernel-linked-list-api
-	url = git@github.com:kdzlvaids/scull.c-using-linux-kernel-linked-list-api.git
-	branch = master
