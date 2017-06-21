@@ -24,8 +24,8 @@
 
 ## [2016 임베디드시스템 프로그래밍 II 기말고사]( https://github.com/kdzlvaids/esp2017/blob/master/exam/solution-2016-final.md#2016-임베디드시스템-프로그래밍-ii-기말고사 )
 - [문제 1: BBB + C언어 - GPIO LED 조작하기]( https://github.com/kdzlvaids/esp2017/blob/master/exam/solution-2016-final.md#문제-1 ) - *[예제 보기]( https://github.com/kdzlvaids/esp2017/tree/master/examples/BBB%20LED%20%EC%A0%90%EB%A9%B8 )*
-- [문제 2: ??]( https://github.com/kdzlvaids/esp2017/blob/master/exam/solution-2016-final.md#문제-2 )
-- [문제 3: Device driver - char 디바이스 파일 제작]( https://github.com/kdzlvaids/esp2017/blob/master/exam/solution-2016-final.md#문제-3 )
+- [문제 2: Epoll API]( https://github.com/kdzlvaids/esp2017/blob/master/exam/solution-2016-final.md#문제-2 )
+- [문제 3: Device driver - 문자 디바이스 드라이버 제작]( https://github.com/kdzlvaids/esp2017/blob/master/exam/solution-2016-final.md#문제-3 )
 
 ## [임베디드 시스템 프로그래밍 QUIZ #2]( https://github.com/kdzlvaids/esp2017/blob/master/exam/solution-bash-quiz.md#임베디드-시스템-프로그래밍-quiz-2 )
 - [문제 1: bash - `-r FILE` (읽기가능 파일 여부)]( https://github.com/kdzlvaids/esp2017/blob/master/exam/solution-bash-quiz.md#문제-1 )
