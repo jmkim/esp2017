@@ -174,7 +174,7 @@ include한다. 이 프로그램을 위한 Makefile을 작성하라. 컴파일러
 
 ### 예상답안
 
-*[예제 보기]( https://github.com/kdzlvaids/esp2017/tree/master/%EC%98%88%EC%A0%9C/Makefile%20%EC%9E%91%EC%84%B1 )*
+*[예제 보기]( https://github.com/kdzlvaids/esp2017/tree/master/examples/Makefile%20%EC%9E%91%EC%84%B1 )*
 
 ```makefile
 CC = gcc
@@ -269,7 +269,7 @@ $ menuconfig
     x86 어쩌고 하는 항목만 있고 정작 arm 프로세서에 관한 내용을 찾을 수 없는 것이다. 철이는
     뭘 빼먹은 것일까?
 
-    ![menuconfig]( https://github.com/kdzlvaids/esp2017/raw/master/figures/menuconfig.png )
+    ![menuconfig]( https://github.com/kdzlvaids/esp2017/raw/master/exam/solutions/figures/menuconfig.png )
 
     ### 예상답안
 

@@ -18,7 +18,7 @@ BBB의 P9_13번 핀에 연결된 LED를 0.5초 단위로 점멸하는 C 혹은 C
 
 ### 예상답안
 
-*[예제 보기]( https://github.com/kdzlvaids/esp2017/tree/master/%EC%98%88%EC%A0%9C/BBB%20LED%20%EC%A0%90%EB%A9%B8 )*
+*[예제 보기]( https://github.com/kdzlvaids/esp2017/tree/master/examples/BBB%20LED%20%EC%A0%90%EB%A9%B8 )*
 
 ```cpp
 #include <fstream>
