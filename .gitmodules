@@ -1,0 +1,3 @@
+[submodule "homeworks/esp2017-scull"]
+	path = homeworks/esp2017-scull
+	url = https://github.com/kdzlvaids/esp2017-scull.git
