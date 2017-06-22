@@ -109,20 +109,18 @@ k번 누르면 Button pressed라고 출력하고 종료하도록 수정하라. G
 ### test_callback.cpp 프로그램의 소스 코드
 ```cpp
 #include<iostream>
-#include<unistd.h>              //for usleep
+#include<unistd.h>      // for usleep
 #include"GPIO.h"
 
 using namespace exploringBB;
 using namespace std;
 
-GPIO *outGPIO, *inGPIO;         //global pointers
+GPIO *outGPIO, *inGPIO; // global pointers
 
 int
 activateLED (int var)
 {
-  outGPIO->streamWrite (HIGH);
-  // turn on the LED
-
+  outGPIO->streamWrite (HIGH);    // turn on the LED
   cout << "Button Pressed" << endl;
   return 0;
 }
@@ -136,38 +134,26 @@ main ()
       return -1;
     }
 
-  inGPIO = new GPIO (115);
+  inGPIO = new GPIO (115);        // button (P9_27)
+  outGPIO = new GPIO (49);        // LED    (P9_23)
 
-  // button
-  outGPIO = new GPIO (49);
+  inGPIO->setDirection (INPUT);   // button is an input
+  outGPIO->setDirection (OUTPUT); // LED is an output
 
-  // LED
-  inGPIO->setDirection (INPUT);
+  outGPIO->streamOpen ();         // fast write to LED
+  outGPIO->streamWrite (LOW);     // turn the LED off
 
-  // button is an input
-  outGPIO->setDirection (OUTPUT);       //LED is an output
-  outGPIO->streamOpen ();
+  inGPIO->setEdgeType (RISING);   // wait for rising edge
 
-  // fast write to LED
-  outGPIO->streamWrite (LOW);
-
-  // turn the LED off
-  inGPIO->setEdgeType (RISING);
-
-  // wait for rising edge
   cout << "You have 10 seconds to press the button:" << endl;
-  inGPIO->waitForEdge (&activateLED);   //pass the function
+  inGPIO->waitForEdge (&activateLED);   // pass the function
 
   cout << "Listening, but also doing something else..." << endl;
-  usleep (10000000);
+  usleep (10000000);              // allow 10 seconds
 
-  // allow 10 seconds
-  outGPIO->streamWrite (LOW);
+  outGPIO->streamWrite (LOW);     // turn off the LED after 10 seconds
+  outGPIO->streamClose ();        // shutdown
 
-  // turn off the LED after 10 seconds
-  outGPIO->streamClose ();
-
-  // shutdown
   return 0;
 }
 ```
