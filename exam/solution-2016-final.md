@@ -122,9 +122,9 @@ k번 누르면 Button pressed라고 출력하고 종료하도록 수정하라. G
 
 ### test_callback.cpp 프로그램의 소스 코드
 ```cpp
-#include<iostream>
-#include<unistd.h>      // for usleep
-#include"GPIO.h"
+#include <iostream>
+#include <unistd.h>     // for usleep
+#include "GPIO.h"
 
 using namespace exploringBB;
 using namespace std;
