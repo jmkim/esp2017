@@ -106,6 +106,20 @@ k번 누르면 Button pressed라고 출력하고 종료하도록 수정하라. G
 해결하라. Button Pressed라는 메시지는 반드시 callback 함수인 activateLED 함수에 의해서
 출력되도록 하라.
 
+### 참고사항
+-   [exploringBB](https://github.com/derekmolloy/exploringBB) 다운로드가 필요하다.
+
+    ```bash
+    $ git clone https://github.com/derekmolloy/exploringBB.git
+    ```
+
+    또는
+
+    ```bash
+    $ wget https://github.com/derekmolloy/exploringBB/archive/master.zip
+    $ unzip master.zip
+    ```
+
 ### test_callback.cpp 프로그램의 소스 코드
 ```cpp
 #include<iostream>
