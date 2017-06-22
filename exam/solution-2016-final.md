@@ -107,7 +107,8 @@ k번 누르면 Button pressed라고 출력하고 종료하도록 수정하라. G
 출력되도록 하라.
 
 ### 참고사항
--   [exploringBB](https://github.com/derekmolloy/exploringBB) 다운로드가 필요하다.
+-   [`exploringBB/chp06/GPIO/tests` 바로가기]( https://github.com/derekmolloy/exploringBB/tree/master/chp06/GPIO/tests )
+-   [exploringBB]( https://github.com/derekmolloy/exploringBB ) 다운로드가 필요하다.
 
     ```bash
     $ git clone https://github.com/derekmolloy/exploringBB.git
