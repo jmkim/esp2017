@@ -175,8 +175,7 @@ main ()
 
 ### 예상답안
 
-```cpp
-```
+[예상답안]( https://github.com/kdzlvaids/esp2017/tree/master/exam/solution-2016-final-src/02 )
 
 
 ## 문제 3
